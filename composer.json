@@ -1,0 +1,21 @@
+{
+    "name": "igor/blackjack",
+    "description": "blackjack game",
+    "authors": [
+        {
+            "name": "Igor",
+            "email": "vvanow@yandex.ru"
+        }
+    ],
+    "bin": [
+        "bin/black"
+    ],
+    "autoload": {
+        "files": [
+            "src/game.php"
+        ]
+    },
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.12"
+    }
+}
